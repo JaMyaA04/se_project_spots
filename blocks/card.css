@@ -32,12 +32,12 @@
     background-color:transparent;
     opacity:40%;
     margin-left:auto;
-    color:rgba(33,33,33,1)
+    color:rgba(33,33,33,40%)
 
 }
 
 .card__like-btn:hover{
-
+    color:rgba(33,33,33,100%)
 }
 .card__title{
     font-weight:500;
