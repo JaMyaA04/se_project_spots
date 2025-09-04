@@ -1,5 +1,7 @@
+
 .cards{
     padding-top:20px;
+    border-bottom: solid 1px;
 
 }
 
@@ -18,4 +20,4 @@
     .cards__list{
         grid-template-columns:repeat(auto-fit,288px);
     }
-}
+    }
