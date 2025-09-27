@@ -38,7 +38,7 @@
 .profile__column{
     display:flex;
     flex-direction:column;
-    width:420px;
+    max-width:420px;
 
 }
 
@@ -46,7 +46,6 @@
     margin-top:auto;
     gap:8px;
     opacity:.7;
-    width:auto;
     height:auto;
     display:block;
     cursor: pointer;
@@ -80,7 +79,7 @@
    
 }
 
-@media screen and (max-width:627){
+@media screen and (max-width:627px){
     .profile{
         flex-direction:column;
         max-width:288px;
