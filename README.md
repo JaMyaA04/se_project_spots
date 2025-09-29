@@ -12,3 +12,4 @@ Responsive Design
 ## Deployement
 The webpage is deployed to Github Pages
   Deployment Link: https://jamyaa04.github.io/se_project_spots
+  Video:https://drive.google.com/file/d/16WOxq_5vi77juxG54WuEEGoYMISpYOPn/view?usp=drive_link
