@@ -32,7 +32,8 @@
     background-color:transparent;
     opacity:40%;
     margin-left:auto;
-    color:rgba(33,33,33,40%)
+    color:rgba(33,33,33,40%);
+    cursor:pointer;
 
 }
 
@@ -41,13 +42,13 @@
 }
 .card__title{
     font-weight:500;
-    font-style:medium;
     font-size:20px;
     line-height:120%;
-    letter-spacing:0%;
+    letter-spacing:0;
     text-overflow: ellipsis;
     white-space: nowrap;
      overflow: hidden;
+     margin: 12px 0 0 0;
 }
 
 @media screen and (max-width:627px){
@@ -59,4 +60,9 @@
         font-size: 16px;
         line-height: 16px;
       }
+      .card__like-btn { 
+        width: 20px; 
+        height: 18px; 
+        background-size: 20px 18px; 
+      }  
     }
