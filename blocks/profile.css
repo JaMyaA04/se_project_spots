@@ -20,6 +20,10 @@
     font-weight:500;
     border:none;
     cursor:pointer;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 6px;
 
 }
 
@@ -46,11 +50,9 @@
 
 .profile__edit-btn{
     margin:auto 8px 0 0;
-    opacity:.7;
     height:auto;
     display:block;
     cursor: pointer;
-  opacity: 100%;
   color:rgba(33,33,33,1);
   border: none;
     background: none;
@@ -65,7 +67,7 @@
     margin-left:8px;
 }
 .profile__edit-btn:hover{
-    color:rgba(33,33,33,100%);
+    opacity:1;
 }
 
 .profile__name{
@@ -78,7 +80,6 @@
 
 .profile_description{
    margin:0;
-   height:28px;
   opacity:0.7;
     display: -webkit-box;
     overflow: hidden;
@@ -101,9 +102,11 @@
     width:80px;
     height:80px;
     }
-    .profile__add-btn{
-        margin:0;
-    }
+    .profile__edit-btn {
+        margin: 0 auto;
+      }
+    
+    
    .profile__name{
     font-size:20px;
     margin:0 0 6px;
@@ -116,6 +119,6 @@
    }
 .profile__add-btn{
     margin:0;
-    width:100%;
+    width:100%
 }
 }
