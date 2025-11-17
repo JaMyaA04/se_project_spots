@@ -22,6 +22,7 @@
                     <p class="profile__description">Civil Aviator</p>
                     <button class="profile__edit-btn" type="button">
                         <img src="images/pencil.svg" alt="Pencil Icon" class=""><span>Edit Profile</span>
+                       
                     </button>
                 </div>
                 <button type="button" class="profile__add-btn">
@@ -78,4 +79,28 @@
         <footer class="footer">
             <p class="footer__copyright">2023 © Spots</p>
         </footer>
+        <div class="modal">
+            <div  class="modal__container">
+             <button class="modal__close-btn" type="button"></button>   
+             <h2 class="modal__title"> Edit Profile </h2>
+             <form class="modal__form">
+                <label for="name" class="modal__label">Name<input required type="text" class="modal__input" id="name" placeholder="Typer your name"></label>
+                <label for="description" class="modal__label">Description<input required type="text" class="modal__input" id="description" placeholder="Describe yourself"></label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+             </form>
+            </div>
+        </div>
+        <div class="modal modal_is-opened">
+            <div  class="modal__container">
+             <button class="modal__close-btn" type="button"></button>   
+             <h2 class="modal__title"> New post </h2>
+             <form class="modal__form">
+                <label for="card-image-input" class="modal__label">Image Link<input required type="url" class="modal__input" id="card-image-input" placeholder="Paste a link to the picture"></label>
+                <label for="caption" class="modal__label">Caption<input required type="text" class="modal__input" id="caption" placeholder="Type your caption"></label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+             </form>
+            </div>
+        </div>
     </div>
+</body>
+</html>
