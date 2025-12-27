@@ -78,7 +78,7 @@ gap: 6px;
     line-height:1;
 }
 
-.profile_description{
+.profile__description{
    margin:0;
   opacity:0.7;
     display: -webkit-box;
