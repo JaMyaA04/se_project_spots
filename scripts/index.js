@@ -1,3 +1,4 @@
+
 const modal= document.querySelectorAll(".modal")
 
 const editProfileBtn  = document.querySelector(".profile__edit-btn");
