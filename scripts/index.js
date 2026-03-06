@@ -1,4 +1,4 @@
-const initialcards = [
+const initialCards = [
     { name: "Val Thorens", link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg" },
     { name : "Restaurant terrace", link : "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/2-photo-by-ceiline-from-pexels.jpg" },
     { name : "An outdoor cafe", link : "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/3-photo-by-tubanur-dogan-from-pexels.jpg" },
@@ -21,7 +21,6 @@ const newCloseBtn= newPostModal.querySelector(".modal__close-btn");
 const newPostForm= newPostModal.querySelector(".modal__form");
 const newPostImageInput=newPostModal.querySelector("#card-image-input");
 const newPostCaptionInput=newPostModal.querySelector("#card-image-caption");
-
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
@@ -71,7 +70,7 @@ function handleNewPostSubmit(evt){
 
 newPostForm.addEventListener("submit", handleNewPostSubmit);
 
-initialcards.forEach(function (item) {
+initialCards.forEach(function (item) {
     console.log(item.name);
     console.log(item.link);
 })
